@@ -1,0 +1,21 @@
+.about {
+	border-top: $standard-border;
+
+	article {
+		@media (min-width: map-get($breakpoints, 'lg')) {
+			float: left;
+			width: 60%;
+		}
+		
+	}
+	figure {
+		margin: $sm auto;
+		padding: $sm;
+		border: $standard-border;	
+		width: 370px;
+		
+		@media (min-width: map-get($breakpoints, 'md')) {
+			float: right;
+		}
+	}
+}

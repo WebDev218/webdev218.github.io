@@ -1,0 +1,20 @@
+footer {
+	text-align: center;
+	margin-top: 1em;
+	height: 50px;
+
+	ul {
+		margin: $sm auto;
+	}
+
+
+	.footer-wrapper {
+		border-top: $standard-border;
+		width: 100%;
+		background: white;
+	}
+
+	h5 {
+		margin: .2em 0;
+	}
+}

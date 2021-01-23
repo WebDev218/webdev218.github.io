@@ -1,0 +1,18 @@
+$breakpoints: (
+  'xs': 575px,
+  'sm': 576px,
+  'md': 768px,
+  'lg': 992px,
+  'xl': 1100px
+);
+
+//Measures
+$sm: .5em;
+$md: 1.5em;
+$lg: 2em;
+
+//borders
+$standard-border: 1px solid black;
+
+//colours
+$standard-font: #777;

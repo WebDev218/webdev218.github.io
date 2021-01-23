@@ -1,0 +1,121 @@
+.portfolio {
+	border-top: $standard-border;
+
+
+
+	/* ========== Language icons ========== */
+	form {
+		width: 100%;
+		text-align: center;
+		margin: $sm auto;
+	}
+	.check-wrapper {
+		@media (min-width: map-get($breakpoints, 'md')) {
+			display: inline-block;
+		}
+	}
+
+	input[type="text"] {
+		position: relative;	
+		width: 90%;
+
+		@media (min-width: map-get($breakpoints, 'md')) {
+			width: 70%;
+		}
+		@media (min-width: map-get($breakpoints, 'lg')) {
+			width: 60%;
+		}
+
+	}
+	.close:hover {
+		cursor: pointer;
+	}
+	input[type="checkbox"] {
+		width: 20px;	
+	}
+	label {		
+		margin: 1em 0;
+		padding-right: $lg;		
+	}
+	legend {
+		margin: auto;
+		margin-top: $sm;
+		padding: $sm 0;
+	}
+
+
+
+	/* ========== Grid Layout ========== */
+	.project-grid {
+		display: grid;
+
+		grid-template-columns: 1fr;
+		grid-gap: $sm;
+
+		@media (min-width: map-get($breakpoints, 'sm')) {
+			grid-template-columns: repeat(2, 1fr);
+			
+			grid-gap: .75em;
+		}
+
+		@media (min-width: map-get($breakpoints, 'lg')) {		
+			grid-gap: $md;		
+			grid-template-columns: repeat(3, 1fr);
+		}
+	}
+
+
+	/* ========== Project Cards ========== */
+	h3 {
+		margin: 0;
+	}
+	article {
+		border: $standard-border;
+		padding: 1em;
+		height: 100%;
+		border-radius: 5%;
+	}
+	article:hover {
+		cursor: pointer;
+		border: none;		
+		box-shadow: 2px 2px 3px 3px lightgrey;
+
+	}
+
+	img {
+		margin-top: $sm;
+
+		max-width: 100%;
+	}
+
+
+
+	/* ========== Language icons ========== */
+	.languages {
+		max-width: 100%;
+		border-top: $standard-border;		
+
+		ul {
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		li {
+			display: inline-block;
+			margin: 0 auto;
+			padding: 0 $sm;
+			margin: 0;
+		}
+		.language-icon {
+			width: 40px;
+			max-height: 45px;
+		}
+		span {
+			display: none;
+		}
+	}
+
+}

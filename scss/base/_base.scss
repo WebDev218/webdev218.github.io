@@ -1,0 +1,39 @@
+
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+
+* {
+  font-family: 'Lato', sans-serif;
+  color: $standard-font;
+  box-sizing: border-box;
+}
+
+header {	
+	height: auto;
+}
+
+h2 {
+	text-align: center
+}
+
+ul {
+	padding: 0;
+}
+
+fieldset {
+	border: none;
+}
+
+p {
+  line-height: 1.45em;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px dotted $standard-font;
+}
+a:hover {
+  border: none;
+  text-decoration: underline;
+}

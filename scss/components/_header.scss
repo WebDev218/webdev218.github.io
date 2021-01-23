@@ -1,0 +1,19 @@
+header {
+	.header-contents {
+		padding: $sm 0;
+		width: 100%;
+		display: block;
+		width: 100%;
+		text-align: center;	
+		height: 80px;
+
+		@media (min-width: map-get($breakpoints, 'lg')) {
+			display: flex;
+			justify-content: space-between;
+			height: 50px;
+		}
+		nav, h1 {
+			margin: auto 0;
+		}
+	}
+}
