@@ -400,9 +400,21 @@ a:hover {
   width: 370px;
 }
 
+@media (max-width: 575px) {
+  .about figure {
+    width: 100vw;
+  }
+}
+
 @media (min-width: 768px) {
   .about figure {
     float: right;
+  }
+}
+
+@media (max-width: 575px) {
+  .about figure img {
+    width: 100%;
   }
 }
 
@@ -466,6 +478,12 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 0.5em;
+}
+
+@media (max-width: 575px) {
+  .portfolio .project-grid {
+    grid-template-columns: 100vw;
+  }
 }
 
 @media (min-width: 576px) {
@@ -543,6 +561,12 @@ header .header-contents {
   height: 80px;
 }
 
+@media (max-width: 575px) {
+  header .header-contents {
+    height: auto;
+  }
+}
+
 @media (min-width: 992px) {
   header .header-contents {
     display: flex;
@@ -601,6 +625,12 @@ footer h5 {
 .wrapper {
   margin: auto;
   max-width: 1200px;
+}
+
+@media (max-width: 575px) {
+  .wrapper {
+    width: 100vw;
+  }
 }
 
 @media (min-width: 576px) {

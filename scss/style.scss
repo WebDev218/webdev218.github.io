@@ -13,8 +13,13 @@
 .wrapper {	
 	margin: auto;
 	max-width: 1200px;
+
+	@media (max-width: map-get($breakpoints, 'xs')) {
+		width: 100vw; 	
+	}
 	@media (min-width: map-get($breakpoints, 'sm')) {
-		padding: 0 $sm;	
+		padding: 0 $sm;	 
 	}
 }
 
+ 

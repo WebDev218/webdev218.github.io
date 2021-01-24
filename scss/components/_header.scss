@@ -7,6 +7,10 @@ header {
 		text-align: center;	
 		height: 80px;
 
+		@media (max-width: map-get($breakpoints, 'xs')) {			
+			height: auto;
+		}
+
 		@media (min-width: map-get($breakpoints, 'lg')) {
 			display: flex;
 			justify-content: space-between;

@@ -48,9 +48,12 @@
 	/* ========== Grid Layout ========== */
 	.project-grid {
 		display: grid;
-
 		grid-template-columns: 1fr;
 		grid-gap: $sm;
+
+		@media (max-width: map-get($breakpoints, 'xs')) {			
+			grid-template-columns: 100vw;
+		}
 
 		@media (min-width: map-get($breakpoints, 'sm')) {
 			grid-template-columns: repeat(2, 1fr);

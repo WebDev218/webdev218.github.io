@@ -13,9 +13,21 @@
 		padding: $sm;
 		border: $standard-border;	
 		width: 370px;
-		
+
+		@media (max-width: map-get($breakpoints, 'xs')) {			
+				width: 100vw;
+		}
+
 		@media (min-width: map-get($breakpoints, 'md')) {
 			float: right;
 		}
+		
+		img {
+			@media (max-width: map-get($breakpoints, 'xs')) {			
+				width: 100%;
+			}
+		}
+
+
 	}
 }
