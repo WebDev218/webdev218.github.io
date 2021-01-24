@@ -23,19 +23,29 @@ function createProjects() {
 	for (let project of projects) {
 		const languages = project.querySelector('.languages > ul');
 		if (languages) {
+
+			
+
 			for (let li of languages.children) {			
+				const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+				const use = document.createElementNS('http://www.w3.org/2000/svg', 'use');
+				svg.appendChild(use);
+
+
 				if (li.textContent === 'HTML') {
-					li.appendChild(generateElement('img', [['src', imageLinks[0]], ['alt', 'HTML 5 Logo']], ['language-icon']));
+					use.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', 'img/svg/icons.svg#icon-html');
 				} 
 				if (li.textContent === 'CSS') {
-					li.appendChild(generateElement('img', [['src', imageLinks[1]], ['alt', 'CSS 3 Logo']], ['language-icon']));
+					use.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', 'img/svg/icons.svg#icon-css');
 				} 
 				if (li.textContent === 'JavaScript') {
-					li.appendChild(generateElement('img', [['src', imageLinks[2]], ['alt', 'JavaScript Logo']], ['language-icon']));
+					use.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', 'img/svg/icons.svg#icon-javascript');
 				}
 				if (li.textContent === 'SASS') {
-					li.appendChild(generateElement('img', [['src', imageLinks[3]], ['alt', 'SASS Logo']], ['language-icon']));
+					// li.appendChild(generateElement('img', [['src', imageLinks[3]], ['alt', 'SASS Logo']], ['language-icon']));
+					use.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', 'img/svg/icons.svg#icon-sass');
 				} 
+				li.appendChild(svg);
 			}
 		}
 
@@ -43,8 +53,7 @@ function createProjects() {
 		const projLink = project.querySelector('.project-link');		
 		const projId = project.id;
 
-		const imageSm = `img/projects/project${projId}.png`;
-		const img = generateElement('img', [['src', imageSm], ['alt', `Preview of project ${project.id}.`]], ['proj-img', 'sm']);
+		const img = generateElement('img', [['src', `img/projects/project${projId}.png`], ['alt', `Preview of project ${project.id}.`]], ['proj-img', 'sm']);
 		projLink.appendChild(img);
 	}
 }

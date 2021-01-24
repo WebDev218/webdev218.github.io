@@ -420,7 +420,7 @@ a:hover {
 
 .portfolio {
   border-top: 1px solid black;
-  /* ========== Language icons ========== */
+  /* ========== Search Form ========== */
   /* ========== Grid Layout ========== */
   /* ========== Project Cards ========== */
   /* ========== Language icons ========== */
@@ -543,7 +543,7 @@ a:hover {
   margin: 0;
 }
 
-.portfolio .languages .language-icon {
+.portfolio .languages svg {
   width: 40px;
   max-height: 45px;
 }
