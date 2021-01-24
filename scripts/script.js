@@ -30,21 +30,7 @@ function createProjects() {
 				const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
 				const use = document.createElementNS('http://www.w3.org/2000/svg', 'use');
 				svg.appendChild(use);
-
-
-				if (li.textContent === 'HTML') {
-					use.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', 'img/svg/icons.svg#icon-html');
-				} 
-				if (li.textContent === 'CSS') {
-					use.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', 'img/svg/icons.svg#icon-css');
-				} 
-				if (li.textContent === 'JavaScript') {
-					use.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', 'img/svg/icons.svg#icon-javascript');
-				}
-				if (li.textContent === 'SASS') {
-					// li.appendChild(generateElement('img', [['src', imageLinks[3]], ['alt', 'SASS Logo']], ['language-icon']));
-					use.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', 'img/svg/icons.svg#icon-sass');
-				} 
+				use.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', `img/svg/icons.svg#icon-${li.textContent.toLowerCase()}`);
 				li.appendChild(svg);
 			}
 		}

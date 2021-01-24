@@ -112,7 +112,8 @@
 			padding: 0 $sm;
 			margin: 0;
 		}
-		svg {
+		svg,
+		use {
 			width: 40px;
 			max-height: 45px;
 		}

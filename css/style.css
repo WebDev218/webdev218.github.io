@@ -543,7 +543,8 @@ a:hover {
   margin: 0;
 }
 
-.portfolio .languages svg {
+.portfolio .languages svg,
+.portfolio .languages use {
   width: 40px;
   max-height: 45px;
 }

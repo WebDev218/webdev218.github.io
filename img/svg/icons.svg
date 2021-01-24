@@ -1,5 +1,6 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+	<!-- HTML 5 Logo from: https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg -->
 	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="icon-html">
 		<title>HTML5 Logo</title>
 		<path d="M108.4 0h23v22.8h21.2V0h23v69h-23V46h-21v23h-23.2M206 23h-20.3V0h63.7v23H229v46h-23M259.5 0h24.1l14.8 24.3L313.2 0h24.1v69h-23V34.8l-16.1 24.8l-16.1-24.8v34.2h-22.6M348.7 0h23v46.2h32.6V69h-55.6"/>
@@ -9,12 +10,13 @@
 		<path fill="#fff" d="M369.6 176.3H255.8v45.4h109.6M361.3 268.2H255.8v45.4h56l-5.3 59-50.7 13.6v47.2l93-25.8"/>
 	</symbol>
 
+	<!-- JavaScript Logo from: https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg -->
 	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 630" id="icon-javascript">
 	<rect width="630" height="630" fill="#f7df1e"/>
 	<path d="m423.2 492.19c12.69 20.72 29.2 35.95 58.4 35.95 24.53 0 40.2-12.26 40.2-29.2 0-20.3-16.1-27.49-43.1-39.3l-14.8-6.35c-42.72-18.2-71.1-41-71.1-89.2 0-44.4 33.83-78.2 86.7-78.2 37.64 0 64.7 13.1 84.2 47.4l-46.1 29.6c-10.15-18.2-21.1-25.37-38.1-25.37-17.34 0-28.33 11-28.33 25.37 0 17.76 11 24.95 36.4 35.95l14.8 6.34c50.3 21.57 78.7 43.56 78.7 93 0 53.3-41.87 82.5-98.1 82.5-54.98 0-90.5-26.2-107.88-60.54zm-209.13 5.13c9.3 16.5 17.76 30.45 38.1 30.45 19.45 0 31.72-7.61 31.72-37.2v-201.3h59.2v202.1c0 61.3-35.94 89.2-88.4 89.2-47.4 0-74.85-24.53-88.81-54.075z"/>
 	</symbol>
 
-
+	<!-- SASS Logo from: https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg -->
 	<symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 		 viewBox="0 0 547.8 410.6" enable-background="new 0 0 547.8 410.6" xml:space="preserve"
 		 id="icon-sass">
@@ -47,112 +49,40 @@
 		C409.4,300.1,395.6,307.3,387.3,310.3z"/>
 	</symbol>
 
-
-
-	<symbol
-	   id="icon-css"
-	   xmlns:dc="http://purl.org/dc/elements/1.1/"
-	   xmlns:cc="http://creativecommons.org/ns#"
-	   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	   xmlns:svg="http://www.w3.org/2000/svg"
-	   xmlns="http://www.w3.org/2000/svg"
-	   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-	   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-	   width="102.3716mm"
-	   height="144.49777mm"
-	   viewBox="0 0 362.73401 511.99998"
-	   
-	   version="1.1"
-	   inkscape:version="0.91 r13725"
-	   sodipodi:docname="CSS3.svg">
-	  <defs
-	     id="defs3478" />
-	  <sodipodi:namedview
-	     id="base"
-	     pagecolor="#ffffff"
-	     bordercolor="#666666"
-	     borderopacity="1.0"
-	     inkscape:pageopacity="0.0"
-	     inkscape:pageshadow="2"
-	     inkscape:zoom="0.35"
-	     inkscape:cx="181.367"
-	     inkscape:cy="256"
-	     inkscape:document-units="px"
-	     inkscape:current-layer="layer1"
-	     showgrid="false"
-	     fit-margin-top="0"
-	     fit-margin-left="0"
-	     fit-margin-right="0"
-	     fit-margin-bottom="0"
-	     inkscape:window-width="1366"
-	     inkscape:window-height="704"
-	     inkscape:window-x="0"
-	     inkscape:window-y="27"
-	     inkscape:window-maximized="1" />
-	  <metadata
-	     id="metadata3481">
-	    <rdf:RDF>
-	      <cc:Work
-	         rdf:about="">
-	        <dc:format>image/svg+xml</dc:format>
-	        <dc:type
-	           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-	        <dc:title></dc:title>
-	      </cc:Work>
-	    </rdf:RDF>
-	  </metadata>
-	  <g
-	     inkscape:label="Calque 1"
-	     inkscape:groupmode="layer"
-	     id="layer1"
-	     transform="translate(-193.633,-276.3622)">
-	    <g
-	       id="g3013"
-	       transform="translate(119,276.3622)">
-	      <polygon
-	         id="polygon2989"
-	         points="437.367,100.62 404.321,470.819 255.778,512 107.644,470.877 74.633,100.62 "
-	         style="fill:#264de4" />
-	      <polygon
-	         id="polygon2991"
-	         points="376.03,447.246 404.27,130.894 256,130.894 256,480.523 "
-	         style="fill:#2965f1" />
-	      <polygon
-	         id="polygon2993"
-	         points="150.31,268.217 154.38,313.627 256,313.627 256,268.217 "
-	         style="fill:#ebebeb" />
-	      <polygon
-	         id="polygon2995"
-	         points="256,176.305 255.843,176.305 142.132,176.305 146.26,221.716 256,221.716 "
-	         style="fill:#ebebeb" />
-	      <polygon
-	         id="polygon2997"
-	         points="256,433.399 256,386.153 255.801,386.206 205.227,372.55 201.994,336.333 177.419,336.333 156.409,336.333 162.771,407.634 255.791,433.457 "
-	         style="fill:#ebebeb" />
-	      <path
-	         id="path2999"
-	         d="m 160,0 55,0 0,23 -32,0 0,23 32,0 0,23 -55,0 z"
-	         inkscape:connector-curvature="0" />
-	      <path
-	         id="path3001"
-	         d="m 226,0 55,0 0,20 -32,0 0,4 32,0 0,46 -55,0 0,-21 32,0 0,-4 -32,0 z"
-	         inkscape:connector-curvature="0" />
-	      <path
-	         id="path3003"
-	         d="m 292,0 55,0 0,20 -32,0 0,4 32,0 0,46 -55,0 0,-21 32,0 0,-4 -32,0 z"
-	         inkscape:connector-curvature="0" />
-	      <polygon
-	         id="polygon3005"
-	         points="311.761,313.627 306.49,372.521 255.843,386.191 255.843,433.435 348.937,407.634 349.62,399.962 360.291,280.411 361.399,268.217 369.597,176.305 255.843,176.305 255.843,221.716 319.831,221.716 315.699,268.217 255.843,268.217 255.843,313.627 "
-	         style="fill:#ffffff" />
-	    </g>
-	  </g>
-	</symbol>
+	<!-- CSS Logo from: https://www.flaticon.com/free-icons/css-logo -->
+	<symbol version="1.1" id="icon-css" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+		<path style="fill:#2196F3;" d="M434.582,110.165c-2.02-2.227-4.887-3.497-7.893-3.499H85.355
+			c-5.891-0.026-10.688,4.728-10.714,10.619c-0.002,0.351,0.014,0.701,0.047,1.05l32,341.333c0.413,4.379,3.471,8.055,7.701,9.259
+			l149.333,42.667c0.964,0.274,1.963,0.41,2.965,0.405c1.144-0.001,2.282-0.181,3.371-0.533l128-42.667
+			c4.015-1.336,6.86-4.918,7.253-9.131l32-341.333C437.592,115.35,436.6,112.384,434.582,110.165z"/>
+		<g>
+			<path style="fill:#FAFAFA;" d="M266.689,426.667c-0.989-0.006-1.973-0.15-2.923-0.427l-74.667-21.333
+				c-3.665-1.043-6.495-3.963-7.424-7.659l-10.667-42.667c-1.558-5.681,1.785-11.55,7.466-13.108
+				c5.681-1.558,11.55,1.785,13.108,7.466c0.044,0.159,0.083,0.318,0.119,0.479l9.173,36.693l65.813,18.816l64.853-18.539
+				l19.2-173.035h-190.72c-5.891,0-10.667-4.776-10.667-10.667c0-5.891,4.776-10.667,10.667-10.667h202.667
+				c5.891-0.036,10.695,4.711,10.731,10.602c0.002,0.414-0.019,0.827-0.065,1.238l-21.333,192c-0.484,4.3-3.518,7.882-7.68,9.067
+				l-74.667,21.333C268.704,426.537,267.698,426.674,266.689,426.667z"/>
+			<path style="fill:#FAFAFA;" d="M352.022,298.667H170.689c-5.891,0-10.667-4.776-10.667-10.667s4.776-10.667,10.667-10.667h181.333
+				c5.891,0,10.667,4.776,10.667,10.667S357.913,298.667,352.022,298.667z"/>
+		</g>
+		<g>
+			<path style="fill:#37474F;" d="M192.022,64h-42.667c-5.891,0-10.667-4.776-10.667-10.667V10.667C138.689,4.776,143.464,0,149.355,0
+				h42.667c5.891,0,10.667,4.776,10.667,10.667s-4.776,10.667-10.667,10.667h-32v21.333h32c5.891,0,10.667,4.776,10.667,10.667
+				S197.913,64,192.022,64z"/>
+			<path style="fill:#37474F;" d="M277.355,64h-42.667c-5.891,0-10.667-4.776-10.667-10.667s4.776-10.667,10.667-10.667h16.917
+				l-24.469-24.448c-4.171-4.16-4.179-10.914-0.019-15.085c2.006-2.011,4.731-3.139,7.571-3.134h42.667
+				c5.891,0,10.667,4.776,10.667,10.667s-4.776,10.667-10.667,10.667h-16.917l24.448,24.448c4.171,4.16,4.179,10.914,0.019,15.085
+				C282.904,62.872,280.188,63.999,277.355,64z"/>
+			<path style="fill:#37474F;" d="M362.689,64h-42.667c-5.891,0-10.667-4.776-10.667-10.667s4.776-10.667,10.667-10.667h16.917
+				L312.47,18.219c-4.171-4.16-4.179-10.914-0.019-15.085c2.006-2.011,4.731-3.139,7.571-3.134h42.667
+				c5.891,0,10.667,4.776,10.667,10.667s-4.776,10.667-10.667,10.667h-16.917l24.448,24.448c4.171,4.16,4.179,10.914,0.019,15.085
+				C368.238,62.872,365.521,63.999,362.689,64z"/>
+		</g>
+		
+		</symbol>
 
 
 
 
-
-
-	
 </svg>
