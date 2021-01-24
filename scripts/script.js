@@ -39,6 +39,7 @@ function createProjects() {
 			}
 		}
 
+
 		const projLink = project.querySelector('.project-link');		
 		const projId = project.id;
 
